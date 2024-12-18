@@ -3,7 +3,7 @@ import axios from "axios";
 // Next we make an 'instance' of it
 const instance = axios.create({
   // where we make our configurations
-  baseURL: "http://192.168.56.1:5000",
+  baseURL: "https://cod-exe.vercel.app",
 });
 
 // Where you would set stuff like your 'Authorization' header, etc ...

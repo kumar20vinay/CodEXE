@@ -15,7 +15,7 @@ const getSpaces = async (req, res) => {
 };
 
 /*
- * @desc Create spaces
+ * Create spaces
  * @route POST /api/spaces
  * @access Private
  * */

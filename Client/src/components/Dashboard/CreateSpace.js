@@ -47,14 +47,6 @@ export default function CreateSpace({
           dispatch({ type: "updateOriginalSpaces", payload: res.data });
           dispatch({ type: "handleCreateBackdrop", payload: false });
           dispatch({ type: "updateSpaceName", payload: "" });
-
-          // navigate(`/space/${spaceId}`, {
-          //   state: {
-          //     spaceId,
-          //     name: loggedInUser.user.name,
-          //     email: loggedInUser.user.email,
-          //   },
-          // });
         }
       });
   };

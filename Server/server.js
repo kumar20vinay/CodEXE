@@ -13,7 +13,7 @@ const Space = require("./models/spaceSchema");
 connectDB();
 
 const port = process.env.PORT || 5000;
-const front_url = "*";
+const front_url = "https://cod-exe-client.vercel.app";
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
